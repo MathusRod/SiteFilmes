@@ -1,4 +1,4 @@
-import { apiKey } from "../apiKey.js";
+import { apiKey } from "../environment/apiKey.js";
 export default function initMovies() {
   const moviesContainer = document.querySelector(".movies");
 
